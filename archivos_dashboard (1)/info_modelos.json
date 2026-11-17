@@ -1,0 +1,61 @@
+{
+  "mejor": "Random Forest 2",
+  "modelos": [
+    {
+      "nombre": "Random Forest 1",
+      "tipo_algoritmo": "Machine learning",
+      "archivo": "modelo_rf1.joblib",
+      "formato": "sklearn",
+      "metricas_prueba": {
+        "Exactitud": 0.89,
+        "Precisión": 0.892,
+        "Recall": 0.846,
+        "Especificidad": 0.923,
+        "F1": 0.868,
+        "AUC": 0.911
+      }
+    },
+    {
+      "nombre": "Random Forest 2",
+      "tipo_algoritmo": "Machine learning",
+      "archivo": "modelo_rf2.joblib",
+      "formato": "sklearn",
+      "metricas_prueba": {
+        "Exactitud": 0.89,
+        "Precisión": 0.892,
+        "Recall": 0.846,
+        "Especificidad": 0.923,
+        "F1": 0.868,
+        "AUC": 0.927
+      }
+    },
+    {
+      "nombre": "Regresión logística",
+      "tipo_algoritmo": "Machine learning",
+      "archivo": "modelo_lr.joblib",
+      "formato": "sklearn",
+      "metricas_prueba": {
+        "Exactitud": 0.857,
+        "Precisión": 0.861,
+        "Recall": 0.795,
+        "Especificidad": 0.904,
+        "F1": 0.827,
+        "AUC": 0.895
+      }
+    },
+    {
+      "nombre": "Red neuronal (MLP)",
+      "tipo_algoritmo": "Deep learning",
+      "archivo": "pesos_mlp.npz",
+      "formato": "mlp",
+      "metricas_prueba": {
+        "Exactitud": 0.857,
+        "Precisión": 0.861,
+        "Recall": 0.795,
+        "Especificidad": 0.904,
+        "F1": 0.827,
+        "AUC": 0.891
+      }
+    }
+  ]
+}
